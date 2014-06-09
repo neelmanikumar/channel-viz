@@ -171,11 +171,11 @@
 									var ticksTreatment = 'glow';
 
 									// Define and Render X Axis (Time Values)
-									var xAxis = new Rickshaw.Graph.Axis.Time( {
-										graph: graph,
-										ticksTreatment: ticksTreatment
-									});
-									xAxis.render();
+									//var xAxis = new Rickshaw.Graph.Axis.Time( {
+									//	graph: graph,
+									//	ticksTreatment: ticksTreatment
+									//});
+									//xAxis.render();
 
 									// Define and Render Y Axis (Datastream Values)
 									var yAxis = new Rickshaw.Graph.Axis.Y( {
