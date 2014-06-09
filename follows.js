@@ -128,13 +128,13 @@
 								// Historical Datapoints
 								if(datastreamData.datapoints) {
 									// Add Each Datapoint to Array
-									//datastreamData.datapoints.forEach(function(datapoint) {
-									//	points.push({x: new Date(datapoint.at).getTime()/1000.0, y: parseFloat(datapoint.value)});
-									//});
+									datastreamData.datapoints.forEach(function(datapoint) {
+										points.push({x: new Date(datapoint.at).getTime()/1000.0, y: parseFloat(datapoint.value)});
+									});
 
 									// Add Each Datapoint to Array
 									//datastreamData.datapoints.forEach(function(datapoint) {
-										points.push({x: parseFloat(datastreamData.datapoints[0].value), y: parseFloat(datastreamData.datapoints[1].value)});
+									//	points.push({x: parseFloat(datastreamData.datapoints[0].value), y: parseFloat(datastreamData.datapoints[1].value)});
 									//});
 
 									// Add Datapoints Array to Graph Series Array
