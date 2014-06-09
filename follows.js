@@ -129,9 +129,9 @@
 								if(datastreamData.datapoints) {
 
 									// Add Each Datapoint to Array
-									datastreamData.datapoints.forEach(function(datapoint) {
-										points.push({x: parseFloat(datapoint[0].value), y: parseFloat(datapoint[1].value)});
-									});
+									//datastreamData.datapoints.forEach(function(datapoint) {
+										points.push({x: parseFloat(datastreamData.datapoints[0].datapoint.value), y: parseFloat(datastreamData.datapoints[1].datapoint.value)});
+									//});
 
 									// Add Datapoints Array to Graph Series Array
 									series.push({
