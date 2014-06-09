@@ -129,10 +129,10 @@
 								if(datastreamData.datapoints) {
 									// Add Each Datapoint to Array
 									datastreamData.datapoints.forEach(function(datapoint) {
-								//		points.push({x: new Date(datapoint.at).getTime()/1000.0, y: parseFloat(datapoint.value)});
+										points.push({x: new Date(datapoint.at).getTime()/1000.0, y: parseFloat(datapoint.value)});
 										//points.push({x: new Date(datapoint.at).getTime()/1000.0, y: parseFloat(datapoint.value)});
 									});
-                                                                        points.push({x: new Date(datastreamData.datapoints[0].at).getTime()/1000.0, y: parseFloat(datastreamData.datapoints[0].value)});
+                                                                        //points.push({x: new Date(datastreamData.datapoints[0].at).getTime()/1000.0, y: parseFloat(datastreamData.datapoints[0].value)});
                                                                         //points.push({x: parseFloat(datastreamData.datapoints[0].value)}), y: parseFloat(datastreamData.datapoints[0].value)});
 									// Add Each Datapoint to Array
 									//datastreamData.datapoints.forEach(function(datapoint) {
