@@ -176,6 +176,13 @@
 									//	ticksTreatment: ticksTreatment
 									//});
 									//xAxis.render();
+									
+									var xAxis = new Rickshaw.Graph.Axis.X( {
+										graph: graph,
+										tickFormat: Rickshaw.Fixtures.Number.formatKMBT,
+										ticksTreatment: ticksTreatment
+									});
+									xAxis.render();
 
 									// Define and Render Y Axis (Datastream Values)
 									var yAxis = new Rickshaw.Graph.Axis.Y( {
